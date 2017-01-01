@@ -23,7 +23,7 @@ function generateShortName (name, filename, css) {
   // var numLines = css.substr(0, i).split(/[\r\n]/).length;
 
   var hash = stringHash(css).toString(36).substr(0, 5);
-  return 'neptune_' + name + '_' + hash; // + '_' + numLines;
+  return 'react_' + name + '_' + hash; // + '_' + numLines;
 }
 
 /*
